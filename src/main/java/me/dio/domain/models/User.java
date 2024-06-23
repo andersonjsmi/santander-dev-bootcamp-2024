@@ -1,9 +1,10 @@
 package me.dio.domain.models;
 
 import jakarta.persistence.*;
-
 import java.util.List;
+import lombok.Data;
 
+@Data
 @Entity(name = "tb_user")
 public class User {
     @Id

@@ -1,7 +1,9 @@
 package me.dio.domain.models;
 
 import jakarta.persistence.*;
+import lombok.Data;
 
+@Data
 @Entity (name = "tb_card")
 public class Card {
     @Id
